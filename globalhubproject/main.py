@@ -62,27 +62,27 @@ frame2.grid_columnconfigure((0,1), weight=1,uniform ="equal")
 
 l=Label(frame2,text="",bg=BACKGROUND_COLOR2)
 l.grid(row=3,column=0)
-order_button = Button(frame2,
-                      text = "Order",
-                      width = 10,
-                      height= 2)
-order_button.grid(row=4,column=0,columnspan=2)
+
+
 
 #RADIOBUTTONS
 
-def SaveInfo():
-    df = pd.read_csv("Orders_Database.csv")
-    df = pd.DataFrame(columns = ['description of order'])
-    if df.empty == 1:
-        df.to_csv("Orders_Database.csv", mode="a",index=3)
+data_dict={"users_name":"","user_id":0,"credit_card_information":0, "description_of_order":[], "time_order":"","credit_card_password":0}
+def AddPizza():
+    if(len(data_dict["description_of_order"])==0):
+        data_dict["description_of_order"].append(rbdict[var.get()])
+        """print(data_dict["description_of_order"][0])
+        datdict_df = pd.DataFrame(data_dict)
+        datdict_df.to_csv("Orders_Database.csv",index=False)"""
     else:
-        print(0)
+        data_dict["description_of_order"]=rbdict[var.get()]
+        """print(data_dict["description_of_order"][0])
+        datdict_df = pd.DataFrame(data_dict)
+        datdict_df.to_csv("Orders_Database.csv",index=False)"""
+            
 
 
-
-
-
-
+rbdict= {1:"Classic",2:"Margherita",3:"Turk Pizza",4:"Dominos Pizza"}
 
 var = IntVar()
 
@@ -92,7 +92,7 @@ Radiobutton(frame1,
             height = 2,
             width = 18,
             value=1,
-            command = SaveInfo).grid(row=1,column=0,sticky="nw")
+            command = AddPizza).grid(row=1,column=0,sticky="nw")
 
 Radiobutton(frame1,
             text='Margherita       ', 
@@ -100,7 +100,7 @@ Radiobutton(frame1,
             height = 2,
             width = 18,
             value=2,
-            command = SaveInfo).grid(row=1,column=1,sticky="nw")
+            command = AddPizza).grid(row=1,column=1,sticky="nw")
 
 Radiobutton(frame1,
             text='Turk   Pizza',
@@ -108,16 +108,67 @@ Radiobutton(frame1,
             height = 2,
             width = 18,
             value=3,
-            command = SaveInfo).grid(row=2,column=0,sticky="nw")
+            command = AddPizza).grid(row=2,column=0,sticky="nw")
 Radiobutton(frame1,
             text='Dominos Pizza ',
             variable=var,
             height = 2,
             width = 18,
             value = 4,
-            command = SaveInfo).grid(row=2,column=1,sticky="nw")
+            command = AddPizza).grid(row=2,column=1,sticky="nw")
 
 #CHECKBUTTONS
+
+"""
+cbdict= {"CheckButton1":"Olives","CheckButton2":"Mushrooms","CheckButton3":"Goat Cheese","CheckButton4":"Meat","CheckButton5":"Onions","CheckButton6":"Corns"}"""
+
+sauce_list=[]
+
+def AddSauce():
+
+    if Checkbutton1.get() == 1 and "Olives" not in sauce_list:
+        sauce_list.append("Olives")
+    elif Checkbutton2.get() == 1 and "Mushrooms" not in sauce_list:
+        sauce_list.append("Mushrooms")
+    elif Checkbutton3.get() == 1 and "Goat Cheese" not in sauce_list:
+        sauce_list.append("Goat Cheese")
+    elif Checkbutton4.get() == 1 and "Meat" not in sauce_list:
+        sauce_list.append("Meat")
+    elif Checkbutton5.get() == 1 and "Onions" not in sauce_list:
+        sauce_list.append("Onions")
+    elif Checkbutton6.get() == 1 and "Corns" not in sauce_list:
+        sauce_list.append("Corns")
+
+def DeleteSauce():
+
+    if Checkbutton1.get() == 0 and "Olives" in sauce_list:
+        sauce_list.remove("Olives")
+    elif Checkbutton2.get() == 0 and "Mushrooms" in sauce_list:
+        sauce_list.remove("Mushrooms")
+    elif Checkbutton3.get() == 0 and "Goat Cheese" in sauce_list:
+        sauce_list.remove("Goat Cheese")
+    elif Checkbutton4.get() == 0 and "Meat" in sauce_list:
+        sauce_list.remove("Meat")
+    elif Checkbutton5.get() == 0 and "Onions" in sauce_list:
+        sauce_list.remove("Onions")
+    elif Checkbutton6.get() == 0 and "Corns" in sauce_list:
+        sauce_list.remove("Corns")
+
+def CheckSauce():
+    AddSauce()
+    DeleteSauce()
+    
+    
+
+def SaveSauce():
+    if len(sauce_list)!=0:
+        print(data_dict["description_of_order"])
+        data_dict["description_of_order"].append(sauce_list)
+        print(data_dict["description_of_order"])
+        datdict_df = pd.DataFrame(data_dict)
+        datdict_df.to_csv("Orders_Database.csv",index=False)
+
+
 
 Checkbutton1 = IntVar()  
 Checkbutton2 = IntVar()  
@@ -132,7 +183,8 @@ Button1 = Checkbutton(frame2,
                       onvalue = 1,
                       offvalue = 0,
                       height = 2,
-                      width = 18).grid(row=0,column=0,sticky="nw")
+                      width = 18,
+                      command = CheckSauce).grid(row=0,column=0,sticky="nw")
   
 Button2 = Checkbutton(frame2, 
                       text = "Mushrooms",
@@ -140,7 +192,8 @@ Button2 = Checkbutton(frame2,
                       onvalue = 1,
                       offvalue = 0,
                       height = 2,
-                      width = 18).grid(row=1,column=0,sticky="nw")
+                      width = 18,
+                      command = CheckSauce).grid(row=1,column=0,sticky="nw")
   
 Button3 = Checkbutton(frame2, 
                       text = "Goat Cheese",
@@ -148,7 +201,8 @@ Button3 = Checkbutton(frame2,
                       onvalue = 1,
                       offvalue = 0,
                       height = 2,
-                      width = 18).grid(row=2,column=0,sticky="nw")
+                      width = 18,
+                      command = CheckSauce).grid(row=2,column=0,sticky="nw")
 
 Button4 = Checkbutton(frame2, 
                       text = "Meat    ",
@@ -156,26 +210,28 @@ Button4 = Checkbutton(frame2,
                       onvalue = 1,
                       offvalue = 0,
                       height = 2,
-                      width = 18).grid(row=0,column=1,sticky="nw")
+                      width = 18,
+                      command = CheckSauce).grid(row=0,column=1,sticky="nw")
 Button5 = Checkbutton(frame2, 
                       text = "Onions ",
                       variable = Checkbutton5,
                       onvalue = 1,
                       offvalue = 0,
                       height = 2,
-                      width = 18).grid(row=1,column=1,sticky="nw")
+                      width = 18,
+                      command = CheckSauce).grid(row=1,column=1,sticky="nw")
 Button6 = Checkbutton(frame2, 
                       text = "Corn     ",
                       variable = Checkbutton6,
                       onvalue = 1,
                       offvalue = 0,
                       height = 2,
-                      width = 18).grid(row=2,column=1,sticky="nw")
+                      width = 18,
+                      command = CheckSauce).grid(row=2,column=1,sticky="nw")
 
-def func():
-    return
 
 #MENU
+
 counter=0
 for counter in range(len(menu)):
     l1=Button(frame3,text=menu[counter],width=10,height=1)
@@ -183,18 +239,32 @@ for counter in range(len(menu)):
 
 
 
+#ORDER
+CheckSauce()
+def Order():
+    SaveSauce()
+def reset_buttons():
+    if Button1.state!="normal":
+        Button1.state="normal"
 
 
 
+order_button = Button(frame2,
+                      text = "Order",
+                      width = 10,
+                      height = 2,
+                      command = Order)          #command = lambda:[Order(),reset_buttons()])
+order_button.grid(row=4,column=0,columnspan=2)
 
+"""
+def click():
+    check.config(state=DISABLED)
+check = Checkbutton(text="Click Me", command=click)"""
 
-
-
-
-
-"""btn=Button(window,text="Order", width=10,height=3,command=func)"""
 
 
 
 window.mainloop()
+
+
 

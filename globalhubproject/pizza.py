@@ -11,21 +11,25 @@ class Pizza:
 
 
 class Classic(Pizza):
-    def __init__(self, price, description):
+    def __init__(self):
+        self.name = "Classic"
         self.price = 40
         self.description = "crusted pizza, grated mozzarella, rich tomato sauce with the sauces you want."
 
 class Margherita(Pizza):
-    def __init__(self, price, description):
+    def __init__(self):
+        self.name = "Margherita"
         self.price = 30
         self.description = "typical Neapolitan pizza, made with San Marzano tomatoes, mozzarella cheese, fresh basil, salt, and extra-virgin olive oil."
     
 class Turk_Pizza(Pizza):
-    def __init__(self, price, description):
+    def __init__(self):
+        self.name = "Turk Pizza"
         self.price = 25
         self.description = "Lahmacun - categorically thin, crispy pizza toppings of flavor crammed mixture of milled meat with peppers, fresh herbs, earthy spices and tomato."
     
 class Dominos_Pizza(Pizza):
-    def __init__(self, price, description):
+    def __init__(self):
+        self.name = "Dominos Pizza"
         self.price = 60
         self.description = "pizza with special dominos sauce."

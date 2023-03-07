@@ -7,36 +7,37 @@ class Decorator(Pizza):
     
     def get_description(self):
        return self.component.get_description() + ' ' + Pizza.get_description(self)
-    
+ 
 
 
 class Olives(Decorator):
-   def __init__(self, price, description):
+   def __init__(self):
         self.price = 7 
-        self.description = description
+        self.description = "Olives"
     
 class Mushrooms(Decorator):
-    def __init__(self, price, description):
+    def __init__(self):
         self.price = 8
-        self.description = description
+        self.description = "Mushrooms"
 
 class Goat_Cheese(Decorator):
-    def __init__(self, price, description):
+    def __init__(self):
         self.price = 10
-        self.description = description
+        self.description = "Goat Cheese"
 
 class Meat(Decorator):
-    def __init__(self, price, description):
+    def __init__(self):
         self.price = 10
-        self.description = description
+        self.description = "Meat"
     
 class Onions(Decorator):
-    def __init__(self, price, description):
+    def __init__(self):
         self.price = 5
-        self.description = description
+        self.description = "Onions"
     
 class Corn(Decorator):
-    def __init__(self, price, description):
+    def __init__(self):
         self.price = 5
-        self.description = description
+        self.description = "Corn"
    
+

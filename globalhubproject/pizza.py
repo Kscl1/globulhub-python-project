@@ -7,7 +7,7 @@ class Pizza:
         return "It's a " + self.description
 
     def get_cost(self):
-        return "It costs " + self.price + "Turkish Liras"
+        return ".\nIt costs " + str(self.price) + " Turkish Liras."
 
 
 class Classic(Pizza):

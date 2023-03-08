@@ -3,12 +3,11 @@ from pizza import Pizza
 class Decorator(Pizza):
 
     def get_cost(self):
-       return self.component.get_cost() + Pizza.get_cost(self)
+       return "\nIt costs "+ str(self.price)+" Turkish Liras."
     
     def get_description(self):
-       return self.component.get_description() + ' ' + Pizza.get_description(self)
+       return "Additional "+ self.description
  
-
 
 class Olives(Decorator):
    def __init__(self):
@@ -40,4 +39,3 @@ class Corn(Decorator):
         self.price = 5
         self.description = "Corn"
    
-

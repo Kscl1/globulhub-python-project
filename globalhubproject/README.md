@@ -6,11 +6,10 @@ https://drive.google.com/drive/folders/1m86smq71uWzE-7bO6-PSrc3xbuPixI28?usp=sha
 
 So here is the first part of our gui. There are our pizza choices as radiobuttons, sauce choices as checkboxes and lastly our menu which is filled with buttons.
 
-![This is an image ](./images/page1.png)
-
-<img src= "./images/page1.png" width =100 height=100>
+<img src= "./images/page1.png" width =800 height=600>
 
 And the second part of the gui looks like this.
+<img src= "./images/page2.png" width =600 height=400>
 
 ![This is an image](./images/page2.png)
 

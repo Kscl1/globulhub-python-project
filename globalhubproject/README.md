@@ -6,7 +6,7 @@ I wanted to show you how it looks in my pc just in case it looks different for y
 
    <img src= "./images/page1.png" width =598 height=420>
 
-- And the second part of the gui looks like this. There are payment details and and order button.
+- And the second part of the gui looks like this. There are payment details and an order button.
 
    <img src= "./images/page2.png" width =598 height=420>
 

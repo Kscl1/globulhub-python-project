@@ -24,8 +24,15 @@ I wanted to show you how it looks in my system just in case it looks different f
       <img src= "./images/order3.png" width =450 height=320> 
    </p>
    
- + Our program also saves the informations datas in a csv file. This is how our order looks in the csv file.
+ + Also our program saves the information datas in a csv file. This is how our order looks in the csv file.
    <img src= "./images/final.png">
+   
+ + Last but not least, on our menu we have the descriptions and prices of the pizzas and the prices of the sauces.
+   <p align="middle">
+      <img src= "./images/menu_pizza.png" width =450 height=320>
+      <img src= "./images/menu_sauce.png" width =450 height=320> 
+   </p>
+ 
 
 
 

@@ -2,7 +2,7 @@
 
 I wanted to show you how it looks in my system just in case it looks different for you-because I guess tkinter makes it look different for some reasons-.
 
-So here is the first part of our gui. There are our pizza choices as radiobuttons, sauce choices as checkboxes and lastly our menu which is filled with buttons.
+- So here is the first part of our gui. There are our pizza choices as radiobuttons, sauce choices as checkboxes and lastly our menu which is filled with buttons.
 
 <img src= "./images/page1.png" width =598 height=420>
 

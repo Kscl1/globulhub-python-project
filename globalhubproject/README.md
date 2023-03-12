@@ -14,9 +14,9 @@ I wanted to show you how it looks in my system just in case it looks different f
 
 ✅Let's order a pizza to see this.
 
-+ Here we chose Classic pizza as our pizza and olives and mushrooms as our sauces. And then we entered our informations, as we pressed the order button and the pop-up message showed us the cost. 
++ Here we chose Classic pizza as our pizza and olives and mushrooms as our sauces. And then we entered our informations, when we pressed the order button and the pop-up message appeared and showed us the cost of our order. 
 
-  <img src= "./images/order1.png" width =500 height=320><img src= "./images/order2.png" width =500 height=320>
+  <img src= "./images/order1.png" width =500 height=320> | <img src= "./images/order2.png" width =500 height=320>
 
 
 

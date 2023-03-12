@@ -14,9 +14,10 @@ I wanted to show you how it looks in my system just in case it looks different f
 
 ✅Let's order a pizza to see this.
 
-+ Here we chose Classic pizza as our pizza and olives and mushrooms as our sauces.
++ Here we chose Classic pizza as our pizza and olives and mushrooms as our sauces. And then we entered our informations, when we're done with our order we pressed teh order button and 
 
-  <img src= "./images/order1.png" width =598 height=420>
+  <img src= "./images/order1.png" width =598 height=420> <img src= "./images/order1.png" width =598 height=420>
+
 
 
 

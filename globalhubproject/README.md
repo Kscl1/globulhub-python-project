@@ -27,7 +27,7 @@ I wanted to show you how it looks in my pc just in case it looks different for y
  + Also our program stores the information datas. This is how our order looks in the csv file.
    <img src= "./images/final.png">
    
- + Last but not least, on our menu we have our pizzas and sauces. You can see the descriptions and prices of the pizzas and the prices of the sauces on the pop-up message if you press the buttons you want!
+ + Last but not least, on our menu we have our pizzas and sauces. You can see the descriptions and prices of the pizzas and the prices of the sauces on a pop-up message if you press the buttons you want!
    <p align="middle">
       <img src= "./images/menu_pizza.png" width =450 height=320>
       <img src= "./images/menu_sauce.png" width =450 height=320> 

@@ -2,7 +2,7 @@
 1: Classic 
 2: Margherita 
 3: Turk Pizza 
-4: Dominos Pizza 
+4: Plain Pizza 
 * and sauce of your choice: 
 11: Olives 
 12: Mushrooms 

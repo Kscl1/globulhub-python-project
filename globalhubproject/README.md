@@ -6,17 +6,17 @@ I wanted to show you how it looks in my system just in case it looks different f
 
    <img src= "./images/page1.png" width =598 height=420>
 
-And the second part of the gui looks like this. There are payment details and and order button.
+- And the second part of the gui looks like this. There are payment details and and order button.
 
-<img src= "./images/page2.png" width =598 height=420>
+   <img src= "./images/page2.png" width =598 height=420>
 
 ❔**So how does our gui work?** 
 
 ✅Let's order a pizza to see this.
 
-Here we chose Classic pizza as our pizza and olives and mushrooms as our sauces.
++ Here we chose Classic pizza as our pizza and olives and mushrooms as our sauces.
 
-<img src= "./images/order1.png" width =598 height=420>
+  <img src= "./images/order1.png" width =598 height=420>
 
 
 

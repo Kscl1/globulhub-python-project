@@ -28,8 +28,8 @@ class Turk_Pizza(Pizza):
         self.price = 25
         self.description = "Lahmacun - categorically thin, crispy pizza toppings of flavor crammed mixture of milled meat with peppers, fresh herbs, earthy spices and tomato."
     
-class Dominos_Pizza(Pizza):
+class Plain_Pizza(Pizza):
     def __init__(self):
-        self.name = "Dominos Pizza"
-        self.price = 60
-        self.description = "pizza with special dominos sauce."
+        self.name = "Plain Pizza"
+        self.price = 30
+        self.description = "pizza with special tomato sauce."

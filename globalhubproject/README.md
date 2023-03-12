@@ -4,7 +4,7 @@ I wanted to show you how it looks in my system just in case it looks different f
 
 - So here is the first part of our gui. There are our pizza choices as radiobuttons, sauce choices as checkboxes and lastly our menu which is filled with buttons.
 
-<img src= "./images/page1.png" width =598 height=420>
+   <img src= "./images/page1.png" width =598 height=420>
 
 And the second part of the gui looks like this. There are payment details and and order button.
 

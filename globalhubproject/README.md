@@ -6,12 +6,15 @@ https://drive.google.com/drive/folders/1m86smq71uWzE-7bO6-PSrc3xbuPixI28?usp=sha
 
 So here is the first part of our gui. There are our pizza choices as radiobuttons, sauce choices as checkboxes and lastly our menu which is filled with buttons.
 
-<img src= "./images/page1.png" width =800 height=600>
+<img src= "./images/page1.png" width =600 height=400>
 
-And the second part of the gui looks like this.
+And the second part of the gui looks like this. There are payment details and and order button.
+
 <img src= "./images/page2.png" width =600 height=400>
 
-![This is an image](./images/page2.png)
+So how does our gui work? 
+
+
 
 
 

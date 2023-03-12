@@ -24,7 +24,7 @@ I wanted to show you how it looks in my pc just in case it looks different for y
       <img src= "./images/order3.png" width =450 height=320> 
    </p>
    
- + Also our program saves the information datas in a csv file. This is how our order looks in the csv file.
+ + Also our program stores the information datas. This is how our order looks in the csv file.
    <img src= "./images/final.png">
    
  + Last but not least, on our menu we have our pizzas and sauces. You can see the descriptions and prices of the pizzas and the prices of the sauces on the pop-up message if you press the buttons you want!

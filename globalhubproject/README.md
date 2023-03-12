@@ -10,14 +10,13 @@ And the second part of the gui looks like this. There are payment details and an
 
 <img src= "./images/page2.png" width =598 height=420>
 
-**So how does our gui work?** 
+❔**So how does our gui work?** 
 
-Let's order a pizza to see this.
+✅Let's order a pizza to see this.
 
 Here we chose Classic pizza as our pizza and olives and mushrooms as our sauces.
 
 <img src= "./images/order1.png" width =598 height=420>
-
 
 
 

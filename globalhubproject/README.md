@@ -3,12 +3,16 @@
 I wanted to show you how it looks in my pc just in case it looks different for you-because I guess tkinter makes it look different for some reasons-.
 
 - So here is the first part of our gui. There are our pizza choices as radiobuttons, sauce choices as checkboxes and lastly our menu which is filled with buttons.
-
-   <img src= "./images/page1.png" width =598 height=420>
+   
+   <p align="middle">
+      <img src= "./images/page1.png" width =598 height=420>
+   </p>
 
 - And the second part of the gui looks like this. There are payment details and an order button.
 
-   <img src= "./images/page2.png" width =598 height=420>
+   <p align="middle">
+      <img src= "./images/page2.png" width =598 height=420>
+   </p>
 
 ❔**So how does our gui work?** 
 

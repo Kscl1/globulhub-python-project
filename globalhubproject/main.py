@@ -77,7 +77,7 @@ canvas.create_text(360,460,text="Payment Information",font = ('Arial', 15, 'bold
 
 pizzaframe.grid_columnconfigure((0,1), weight=1,uniform ="equal")
 sauceframe.grid_columnconfigure((0,1), weight=1,uniform ="equal")
-
+paymentframe.grid_columnconfigure((0), weight=1,uniform ="equal")
 
 l=Label(paymentframe,text="",bg=BACKGROUND_COLOR2)
 l.grid(row=8,column=0)
@@ -112,7 +112,7 @@ rbdict= {
     1:"Classic",
     2:"Margherita",
     3:"Turk Pizza",
-    4:"Dominos Pizza"
+    4:"Plain Pizza"
         }
 
 order_pizza=""
@@ -134,7 +134,7 @@ Radiobutton(pizzaframe, text='Margherita       ', variable=var, height = 2, widt
 
 Radiobutton(pizzaframe, text='Turk   Pizza', variable=var, height = 2, width = 20, value=3, command = AddPizza).grid(row=2,column=0,sticky="nw")
 
-Radiobutton(pizzaframe, text='Dominos Pizza ', variable=var, height = 2, width = 20, value = 4, command = AddPizza).grid(row=2,column=1,sticky="nw")
+Radiobutton(pizzaframe, text='Plain Pizza         ', variable=var, height = 2, width = 20, value = 4, command = AddPizza).grid(row=2,column=1,sticky="nw")
 
 #CHECKBUTTONS
 
@@ -194,6 +194,7 @@ def ChangeFlag():
     global flag
     flag=1
 
+
 Checkbutton1 = IntVar()  
 Checkbutton2 = IntVar()  
 Checkbutton3 = IntVar()
@@ -219,7 +220,7 @@ Button7 = Checkbutton(sauceframe, text = "I don't want sauce", variable = Checkb
 #MENU
 
 def onClick(n):
-    pizzas=[Classic(),Margherita(),Turk_Pizza(),Dominos_Pizza()]
+    pizzas=[Classic(),Margherita(),Turk_Pizza(),Plain_Pizza()]
     decorators=[Olives(),Mushrooms(),Goat_Cheese(),Meat(),Onions(),Corn()]
     if n<4 and menu[n] == pizzas[n].name:
         messagebox.showinfo(pizzas[n].name,pizzas[n].get_description()+ pizzas[n].get_cost())
@@ -257,7 +258,7 @@ def SaveTime():
 
 def Calculate_Cost():
     cost = 0
-    pizzas=[Classic(),Margherita(),Turk_Pizza(),Dominos_Pizza()]
+    pizzas=[Classic(),Margherita(),Turk_Pizza(),Plain_Pizza()]
     global flag
 
     if flag == 0:

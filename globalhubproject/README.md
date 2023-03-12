@@ -18,8 +18,13 @@ I wanted to show you how it looks in my system just in case it looks different f
 
    <p float="left">
       <img src= "./images/order1.png" width =450 height=320>
+   
       <img src= "./images/order2.png" width =450 height=320> 
    </p>
+   <p align="middle">
+      <img src= "./images/order3.png" width =450 height=320> 
+   </p>
+   
 
 
 

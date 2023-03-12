@@ -24,8 +24,8 @@ I wanted to show you how it looks in my system just in case it looks different f
       <img src= "./images/order3.png" width =450 height=320> 
    </p>
    
- +Our program also saves the informations datas in a csv file. This is how our order looks in the csv file.
-   <<img src= "./images/final.png">
+ + Our program also saves the informations datas in a csv file. This is how our order looks in the csv file.
+   <img src= "./images/final.png">
 
 
 

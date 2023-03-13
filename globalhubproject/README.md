@@ -2,7 +2,7 @@
 
 ##### A simple pizza order automation system was created at Akbank Python Bootcamp, conducted by [Global AI Hub](https://globalaihub.com/).
 
-#####You can find detailed information about the project [here](https://docs.google.com/document/d/1OYNAFSqUnbCEkRAqI0z4mFT0uUrfXqYUxbalRw3xY3U/edit#).
+##### You can find detailed information about the project [here](https://docs.google.com/document/d/1OYNAFSqUnbCEkRAqI0z4mFT0uUrfXqYUxbalRw3xY3U/edit#).
 
 <p align="middle">
   <img src="https://user-images.githubusercontent.com/105937746/224774041-9f66e085-f4a9-4dfe-9fd6-9a49f9411bdd.png">

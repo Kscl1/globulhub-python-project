@@ -19,9 +19,9 @@ Hamdi Eren Kuşcalı [Github](https://github.com/Kscl1) - [LinkedIn](https://www
 
 Furkan Pehlivanoğlu [Github](https://github.com/10FP "Github") - [LinkedIn](https://www.linkedin.com/in/furkan-pehlivanoglu-187296206/ "LinkedIn")
 
-Let me introduce you our gui as we said before it's an interface for a pizza ordering system.
+Let me introduce you our interface.
 
-#(I wanted to show you how it looks in my pc just in case it looks different for you-because I guess tkinter makes it look different for some reasons-.)
+#I wanted to show you how it looks in my pc just in case it looks different for you-because I guess tkinter makes it look different for some reasons-.
 
 - So here is the first part of our gui. There are our pizza choices as radiobuttons, sauce choices as checkboxes and lastly our menu which is filled with buttons.
    

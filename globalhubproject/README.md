@@ -1,4 +1,24 @@
-***This is an interface for a pizza ordering system.***
+# Pizza Order System 
+
+##### a simple pizza order automation system created at Akbank Python Bootcamp, conducted by [Global AI Hub](https://globalaihub.com/).
+
+<p align="middle">
+  <img src="https://user-images.githubusercontent.com/105937746/224774041-9f66e085-f4a9-4dfe-9fd6-9a49f9411bdd.png">
+</p>
+<p align="middle">
+  <a href="https://globalaihub.com/">Global AI Hub</a>          
+  <a href="https://10million.ai">«10million.AI»</a>
+</p>
+
+### Team Members
+Aymina Yılık [Github](https://github.com/lilofthea) - [LinkedIn](https://www.linkedin.com/in/aymina-yılık/)
+
+Helin Güler [Github](https://github.com/helinguler) - [LinkedIn](https://www.linkedin.com/in/helin-guler/ "LinkedIn")
+
+Hamdi Eren Kuşcalı [Github](https://github.com/Kscl1) - [LinkedIn](https://www.linkedin.com/in/hamdi-eren-kuscali/ "LinkedIn")
+
+Furkan Pehlivanoğlu [Github](https://github.com/10FP "Github") - [LinkedIn](https://www.linkedin.com/in/furkan-pehlivanoglu-187296206/ "LinkedIn")
+
 
 I wanted to show you how it looks in my pc just in case it looks different for you-because I guess tkinter makes it look different for some reasons-.
 

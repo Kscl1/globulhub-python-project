@@ -2,6 +2,8 @@
 
 ##### A simple pizza order automation system was created at Akbank Python Bootcamp, conducted by [Global AI Hub](https://globalaihub.com/).
 
+#####You can find detailed information about the project [here](https://docs.google.com/document/d/1OYNAFSqUnbCEkRAqI0z4mFT0uUrfXqYUxbalRw3xY3U/edit#).
+
 <p align="middle">
   <img src="https://user-images.githubusercontent.com/105937746/224774041-9f66e085-f4a9-4dfe-9fd6-9a49f9411bdd.png">
 </p>
@@ -21,7 +23,7 @@ Furkan Pehlivanoğlu [Github](https://github.com/10FP "Github") - [LinkedIn](htt
 
 Let me introduce you our interface.
 
-#I wanted to show you how it looks in my pc just in case it looks different for you-because I guess tkinter makes it look different for some reasons-.
+I wanted to show you how it looks in my pc just in case it looks different for you-because I guess tkinter makes it look different for some reasons-.
 
 - So here is the first part of our gui. There are our pizza choices as radiobuttons, sauce choices as checkboxes and lastly our menu which is filled with buttons.
    

@@ -1,6 +1,6 @@
 # Pizza Order System 
 
-##### a simple pizza order automation system created at Akbank Python Bootcamp, conducted by [Global AI Hub](https://globalaihub.com/).
+##### A simple pizza order automation system was created at Akbank Python Bootcamp, conducted by [Global AI Hub](https://globalaihub.com/).
 
 <p align="middle">
   <img src="https://user-images.githubusercontent.com/105937746/224774041-9f66e085-f4a9-4dfe-9fd6-9a49f9411bdd.png">
